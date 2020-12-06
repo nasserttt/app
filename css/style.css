@@ -1,0 +1,552 @@
+@font-face {
+    src: url(../fonts//JFFlatregular.ttf);
+    font-family: ar-font;
+    font-weight: normal;
+}
+
+body {
+    direction: rtl;
+    font-family: ar-font;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav {
+    background-color: #7b0027;
+    padding: 10px;
+}
+
+nav a img {
+    height: 45px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 7px;
+    transition: all .3s ease;
+}
+
+nav ul li:hover {
+    background-color: beige;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+header {
+    background-image: url(../images/ecommerce-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+ header .title_marketing {
+    color: white;
+}
+
+.title_marketing h5 {
+    margin-top: 60px;
+    margin-bottom: 55px;
+    font-size: 26px;
+    color: bisque;
+}
+
+p.custom_text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 110px;
+}
+
+.btn-download {
+    margin-right: 37%;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+
+button.custom-appios-btn {
+    background-color: rgb(77, 45, 4);
+    border-color: burlywood;
+    margin-left: 12px;
+}
+
+button.custom-appios-btn a {
+    text-decoration: none;
+    color: bisque;
+}
+
+button.custom-appios-btn:active,
+button.custom-appios-btn:hover,
+button.custom-appios-btn:focus {
+    background-color: rgb(192, 92, 56);
+    border-color: burlywood;
+}
+
+button.custom-appios-btn img {
+    height: 28px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.sec_about_app .title_section h4 {
+    margin: 35px 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.sec_about_app .text-one p {
+    border: 2px solid #55555563;
+    padding: 12px;
+    text-align: justify;
+    font-size: 16px;
+    color: black;
+}
+
+.sec_about_app .carousel-inner .carousel-item img {
+    margin-right: 36.5%;
+    height: 520px;
+}
+
+#carouselAppControls a svg {
+    color: orange;
+    font-size: 45px;
+}
+
+section.sec_featuresApp {
+    background-color: bisque;
+    margin-top: 90px;
+}
+
+.sec_featuresApp .title_features h4 {
+    margin: 55px 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.sec_featuresApp .image-featured img {
+    height: 85px;
+    margin: 20px 0;
+    margin-right: 42%;
+}
+
+.sec_featuresApp .marketing_for_text p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.informations .title_informations h4 {
+    margin: 35px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.informations .image-information img {
+    height: 80px;
+    margin: 18px 0;
+    margin-right: 40%;
+}
+
+.informations .text_information p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#Reviews_of_users {
+    background-image: url(../images/bg-footer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.Reviews_of_users .title_reviews h4 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    color: wheat;
+}
+
+#Reviews_of_users #carouselReviewsCaption {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 40px;
+    padding-bottom: 18px;
+}
+
+#Reviews_of_users #carouselReviewsCaption .carousel-inner .carousel-item img {
+    height: 95px;
+    margin-right: 46%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+#Reviews_of_users #carouselReviewsCaption .carousel-inner .carousel-item h5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+#Reviews_of_users #carouselReviewsCaption .carousel-inner .carousel-item p {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: black;
+}
+
+#Reviews_of_users #carouselReviewsCaption a {
+    position: relative;
+}
+
+#Reviews_of_users #carouselReviewsCaption a svg {
+    position: absolute;
+    color: rgb(160, 104, 0);
+    top: -110px;
+    font-size: 35px;
+}
+
+svg.svg-inline--fa.fa-chevron-circle-left.fa-w-16 {
+    right: 515%;
+}
+
+svg.svg-inline--fa.fa-chevron-circle-right.fa-w-16 {
+    right: 130%;
+}
+
+#Reviews_of_users li {
+    width: 15px;
+    height: 15px;
+    background-color: chocolate;
+    margin-bottom: -50px;
+    margin-right: 10px;
+    margin-top: -2.5px;
+}
+
+ol.carousel-indicators {
+    margin-left: 19%;
+}
+
+footer {
+    background-color: #7b0027;
+    padding: 6px;
+}
+
+.bottom_footer .contact-me ul {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: -4px;
+}
+
+.bottom_footer .contact-me ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    background-color: bisque;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+
+.bottom_footer .contact-me ul li:hover,
+.bottom_footer .contact-me ul li:active,
+.bottom_footer .contact-me ul li:focus {
+    background-color: chocolate;
+}
+
+.bottom_footer .contact-me ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.bottom_footer .contact-me ul li a:hover,
+.bottom_footer .contact-me ul li a:active,
+.bottom_footer .contact-me ul li a:focus {
+    color: white;
+}
+
+.bottom_footer .copyright p {
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.bottom_footer .copyright p a {
+    text-decoration: none;
+    color: orange;
+    transition: all 0.2s ease;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.bottom_footer .copyright p a:hover {
+    color: burlywood;
+}
+
+/*********
+**************
+
+Responsive pages 
+
+**********
+******************/
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    .title_marketing h5 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    p.custom_text {
+        font-size: 15px;
+    }
+
+    .btn-download {
+        margin-right: 25%;
+    }
+
+    button.custom-appios-btn {
+        margin-top: 10px;
+    }
+
+    button.btn.btn-primary.custom-appios-btn.MB-small {
+        margin-right: 8px;
+    }
+
+    .sec_about_app .text-one p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .sec_about_app .carousel-inner .carousel-item img {
+        margin-right: 24.5%;
+        height: 260px;
+    }
+
+    #carouselAppControls a svg {
+        color: orange;
+        font-size: 26px;
+    }
+
+    .sec_featuresApp .marketing_for_text p {
+        font-size: 13.5px;
+        font-weight: bold;
+    }
+
+    .sec_featuresApp .image-featured img {
+        margin-right: 34%;
+    }
+
+    .sec_featuresApp .title_features h4 {
+        font-size: 22px;
+    }
+
+    .informations .title_informations h4 {
+        font-size: 21px;
+    }
+
+    .informations .text_information p {
+        font-size: 14px;
+    }
+
+    #Reviews_of_users {
+        margin-top: 12px;
+    }
+
+    .Reviews_of_users .title_reviews h4 {
+        font-size: 21px;
+    }
+
+    section.sec_featuresApp {
+        padding-top: 15px;
+    }
+
+    #Reviews_of_users #carouselReviewsCaption a {
+        display: none;
+    }
+
+    #Reviews_of_users #carouselReviewsCaption .carousel-inner .carousel-item img {
+        height: 65px;
+        margin-right: 38%;
+    }
+
+    #Reviews_of_users #carouselReviewsCaption .carousel-inner .carousel-item h5 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    #Reviews_of_users #carouselReviewsCaption .carousel-inner .carousel-item p {
+        font-size: 15px;
+    }
+
+    ol.carousel-indicators {
+        margin-left: 30%;
+    }
+
+    .bottom_footer .contact-me ul {
+        text-align: center;
+    }
+
+    .bottom_footer .copyright p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .title_marketing h5 {
+        font-size: 19px;
+    }
+
+    p.custom_text {
+        font-size: 17px;
+    }
+
+    button.btn.btn-primary.custom-appios-btn {
+        margin-top: 15px;
+    }
+
+    button.btn.btn-primary.custom-appios-btn.MB-small {
+        margin-right: 8px;
+    }
+
+    .sec_about_app .carousel-inner .carousel-item img {
+        margin-right: 27%;
+        height: 400px;
+    }
+
+    #carouselAppControls a svg {
+        font-size: 30px;
+    }
+
+    section.sec_featuresApp {
+        padding-bottom: 20px;
+    }
+
+    #Reviews_of_users {
+        margin-top: 20px;
+    }
+
+    #Reviews_of_users #carouselReviewsCaption .carousel-inner .carousel-item img {
+        height: 75px;
+        margin-right: 42%;
+    }
+
+    #Reviews_of_users #carouselReviewsCaption .carousel-inner .carousel-item p {
+        font-size: 15px;
+    }
+
+    ol.carousel-indicators {
+        margin-left: 22%;
+    }
+
+    .bottom_footer .contact-me ul,
+    .bottom_footer .copyright p {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .title_marketing h5 {
+        font-size: 22px;
+    }
+
+    p.custom_text {
+        font-size: 18px;
+    }
+
+    .btn-download {
+        margin-right: 25%;
+    }
+
+    .sec_about_app .carousel-inner .carousel-item img {
+        margin-right: 29.5%;
+        height: 440px;
+    }
+
+    #carouselAppControls a svg {
+        font-size: 35px;
+    }
+
+    .sec_featuresApp .marketing_for_text p {
+        font-size: 15px;
+    }
+
+    .informations .title_informations h4 {
+        font-size: 22px;
+    }
+
+    .informations .text_information p {
+        font-size: 15px;
+    }
+
+    .Reviews_of_users .title_reviews h4 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    #Reviews_of_users #carouselReviewsCaption .carousel-inner .carousel-item img {
+        margin-right: 43%;
+    }
+
+    #Reviews_of_users #carouselReviewsCaption .carousel-inner .carousel-item p {
+        font-size: 16px;
+    }
+
+    .bottom_footer .contact-me ul,
+    .bottom_footer .copyright p {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .btn-download {
+        margin-right: 31%;
+        margin-bottom: 30px;
+        margin-top: -20px;
+    }
+
+    .sec_about_app .text-one p {
+        font-size: 15px;
+    }
+
+    section.sec_featuresApp {
+        background-color: bisque;
+        margin-top: 90px;
+        padding-bottom: 35px;
+    }
+
+    #Reviews_of_users {
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /*** Responsive page for 1200px GOOD *****/
+}
